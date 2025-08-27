@@ -4,7 +4,8 @@ A collection of small React projects I’m building while learning React, TypeSc
 
 ## 🚀 Projects
 
-- **Tic Tac Toe** → Classic game built with React state/hooks.   
+- **Tic Tac Toe** → Classic game built with React state/hooks. 
+- **Movie Search** → Simple project calling an API that uses IMDb data, search for a movie and shows in the UI.    
 - **(More coming soon...)**
 
 ## 🛠️ Tech Stack
