@@ -23,8 +23,6 @@ const Search = ({setResults} : SearchProps) => {
       let searchData = await response.json();
       if(searchData.Search){
         setResults(searchData.Search)
-      }else{
-        console.log("Not found")
       }
     } catch (err) {
       console.log(err);

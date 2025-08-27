@@ -5,10 +5,13 @@ interface MovieFrameProps {
 }
 
 const MovieFrame = ({ results }: MovieFrameProps) => {
-  return (
+    console.log(results.length)
+  
+    return (
     <>
       <div className="pt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-        {results.map((result) => (
+        {
+         results.map((result) => (
           <div
             key={result.imdbID}
             className="bg-white rounded-2xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl"
